@@ -113,6 +113,7 @@ div.stats {
   justify-content: space-around;
   width: 100%;
   margin: 20px;
+  gap: 10px;
 }
 
 .stats-box {
@@ -141,5 +142,11 @@ div.stats {
 @media (max-width: 600px) {
   textarea {
     min-width: 320px;
+  }
+
+  .stats {
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
   }
 }
