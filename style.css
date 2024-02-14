@@ -115,6 +115,16 @@ div.stats {
   margin: 20px;
 }
 
+.stats-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border: #00c8aa solid 2px;
+  font-size: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
