@@ -94,7 +94,6 @@ button:focus-visible {
   justify-content: flex-start;
   height: 80vh;
   width: 100%;
-  margin-top: 20px;
 }
 
 textarea {
@@ -124,6 +123,12 @@ div.stats {
   font-size: 1.2rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+canvas {
+  max-width: 800px;
+  max-height: 500px;
+  margin-top: 20px;
 }
 
 @media (prefers-color-scheme: light) {
