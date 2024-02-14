@@ -9,6 +9,6 @@ const punctuation = document.querySelector(".punctuation");
 const stats = new TextStats();
 
 textarea.addEventListener("keyup", (event) => {
-  const numberOfWords = stats.getNumberOfWords(event.target.value);
-  words.textContent = numberOfWords;
+  words.textContent = stats.getNumberOfWords(event.target.value);
+  chars.textContent = stats.getNumberOfChars(event.target.value);
 });
