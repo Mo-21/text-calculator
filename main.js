@@ -12,4 +12,5 @@ textarea.addEventListener("keyup", (event) => {
   words.textContent = stats.getNumberOfWords(event.target.value);
   chars.textContent = stats.getNumberOfChars(event.target.value);
   sentences.textContent = stats.getNumberOfSentences(event.target.value);
+  punctuation.textContent = stats.getNumberOfPunctuation(event.target.value);
 });

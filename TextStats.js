@@ -22,4 +22,49 @@ export class TextStats {
 
     return numberOfSentences;
   }
+
+  getNumberOfPunctuation(text) {
+    let numberOfPunctuation = 0;
+
+    for (let i = 0; i < text.length; i++) {
+      if (punctuation_marks.includes(text.charAt(i))) numberOfPunctuation++;
+    }
+
+    return numberOfPunctuation;
+  }
 }
+
+const punctuation_marks = [
+  ".",
+  ",",
+  "!",
+  "?",
+  ";",
+  ":",
+  "-",
+  "—",
+  "(",
+  ")",
+  "[",
+  "]",
+  "{",
+  "}",
+  "'",
+  '"',
+  "*",
+  "/",
+  "&",
+  "#",
+  "@",
+  "^",
+  "%",
+  "$",
+  "<",
+  ">",
+  "=",
+  "+",
+  "_",
+  "|",
+  "`",
+  "~",
+];
