@@ -2,6 +2,8 @@
 
 This is a simple Vanilla JavaScript project that uses Vite as a build tool. The application counts the number of characters, words, sentences, and punctuation in a text and displays the statistics in a bar chart using Chart.js.
 
+[Live Preview](https://keen-lolly-65878c.netlify.app/)
+
 ## Features
 
 - Count the number of characters, words, sentences, and punctuation in a text.
